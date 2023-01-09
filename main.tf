@@ -6,7 +6,7 @@ terraform {
   required_version = ">=v1.2.1"
 
   backend "s3" {
-    bucket         = "prod-nfor"
+    bucket         = "tonyo-demo-98765"
     key            = "path/env"
     region         = "us-east-1"
 
